@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatHouse — Притулок для котів</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="header__container">
+    <nav class="header__nav">
+      <a class="header__logo" href="/">🐾 CatHouse</a>
+      <ul class="header__list">
+        <li class="head__list-item">
+          <a class="header__list-link active" href="/">Головна</a>
+        </li>
+        <li class="head__list-item">
+          <a class="header__list-link" href="#about">Про нас</a>
+        </li>
+        <li class="head__list-item">
+          <a class="header__list-link" href="#cats">Коти</a>
+        </li>
+        <li class="head__list-item">
+          <a class="header__list-link" href="#contact">Контакти</a>
+        </li>
+      </ul>
+      <a class="header__button" href="#cats">Взяти кота</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__container">
+      <div class="hero__content">
+        <div class="hero__text">
+          <h1 class="hero__title">
+            Знайди свого пухнастого друга
+          </h1>
+          <p class="hero__desc">
+            У нашому притулку живуть коти, які чекають на тепло та турботу. Кожен з них має свою історію — і хоче стати частиною твоєї.
+          </p>
+        </div>
+        <div class="hero__buttons">
+          <a class="hero__button" href="#cats">Переглянути котів</a>
+          <a class="hero__scroll" href="#about">
+            <img class="hero__scroll-image" src="images/Arrow-down.svg" alt="Прокрутити вниз">
+          </a>
+        </div>
+      </div>
+      <img class="hero__image" src="images/Triplets.webp" alt="Кіт у притулку">
+    </div>
+  </section>
+  <section class="features" id="features">
+    <div class="features__container">
+      <div class="feature">
+        <img class="feature__image" src="images/cotiki1.jpg" alt="">
+        <div class="feature__content">
+          <h3 class="feature__title">
+            Ми піклуємося про кожного кота з любов'ю
+          </h3>
+          <p class="feature__desc">
+            Всі наші коти проходять ветеринарний огляд, щеплення та стерилізацію перед тим, як знайти новий дім. Ми стежимо за їхнім здоров'ям і добробутом щодня.
+          </p>
+          <a href="#cats" class="feature__link">Дізнатись більше</a>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature__content">
+          <h3 class="feature__title">
+            Усиновлення — це просто та відповідально
+          </h3>
+          <p class="feature__desc">
+            Ми допомагаємо підібрати кота, який підходить саме тобі. Наші волонтери розкажуть про характер, звички та потреби кожного мешканця притулку. Після усиновлення ми залишаємось на зв'язку та підтримуємо тебе.
+          </p>
+          <a href="#contact" class="feature__link">Дізнатись більше</a>
+        </div>
+        <img class="feature__image" src="images/cotiki.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about__container">
+      <h2 class="about__title">Про наш притулок</h2>
+      <p class="about__desc">
+        CatHouse — це некомерційний притулок для котів, заснований у 2018 році. За цей час ми знайшли домівку для понад 1200 котів. Ми працюємо завдяки волонтерам та пожертвам небайдужих людей.
+      </p>
+      <div class="about__stats">
+        <div class="about__stat">
+          <span class="about__stat-number">1200+</span>
+          <span class="about__stat-label">Котів знайшли дім</span>
+        </div>
+        <div class="about__stat">
+          <span class="about__stat-number">50+</span>
+          <span class="about__stat-label">Волонтерів</span>
+        </div>
+        <div class="about__stat">
+          <span class="about__stat-number">7</span>
+          <span class="about__stat-label">Років роботи</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cats" id="cats">
+    <div class="cats__container">
+      <h2 class="cats__title">Коти, які шукають дім</h2>
+      <p class="cats__desc">Познайомся з нашими мешканцями — кожен з них чекає саме на тебе</p>
+      <div class="cats__grid">
+
+        <div class="cat-card">
+          <img class="cat-card__image" src="images/cat1.jpg" alt="Кіт Мурко">
+          <div class="cat-card__content">
+            <div class="cat-card__top">
+              <h3 class="cat-card__name">Мурко</h3>
+              <span class="cat-card__age">3 роки</span>
+            </div>
+            <p class="cat-card__desc">Лагідний та спокійний кіт. Любить лежати на сонці та отримувати ласку. Добре ладнає з дітьми.</p>
+            <a class="cat-card__button" href="#contact">Взяти додому</a>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img class="cat-card__image" src="images/cat7.jpg" alt="Кішка Ліля">
+          <div class="cat-card__content">
+            <div class="cat-card__top">
+              <h3 class="cat-card__name">Ліля</h3>
+              <span class="cat-card__age">1 рік</span>
+            </div>
+            <p class="cat-card__desc">Молода та грайлива кішка. Обожнює іграшки та активні ігри. Швидко звикає до нових людей.</p>
+            <a class="cat-card__button" href="#contact">Взяти додому</a>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img class="cat-card__image" src="images/cat3.jpg" alt="Кіт Рудик">
+          <div class="cat-card__content">
+            <div class="cat-card__top">
+              <h3 class="cat-card__name">Рудик</h3>
+              <span class="cat-card__age">5 років</span>
+            </div>
+            <p class="cat-card__desc">Досвідчений та мудрий рудий кіт. Ідеально підходить для тихого дому. Любить спокій та смачну їжу.</p>
+            <a class="cat-card__button" href="#contact">Взяти додому</a>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img class="cat-card__image" src="images/cat6.jpg" alt="Кішка Сніжка">
+          <div class="cat-card__content">
+            <div class="cat-card__top">
+              <h3 class="cat-card__name">Сніжка</h3>
+              <span class="cat-card__age">2 роки</span>
+            </div>
+            <p class="cat-card__desc">Ніжна біла кішка з блакитними очима. Дуже прив'язується до господаря. Любить спати поруч.</p>
+            <a class="cat-card__button" href="#contact">Взяти додому</a>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img class="cat-card__image" src="images/cat8.jpg" alt="Кіт Барсик">
+          <div class="cat-card__content">
+            <div class="cat-card__top">
+              <h3 class="cat-card__name">Барсик</h3>
+              <span class="cat-card__age">9 років</span>
+            </div>
+            <p class="cat-card__desc">Он великолепный, его взгляд глубокий и говорит о большом смысле. Лучший кот планеты</p>
+            <a class="cat-card__button" href="#contact">Взяти додому</a>
+          </div>
+        </div>
+
+        <div class="cat-card">
+          <img class="cat-card__image" src="images/cat9.jpg" alt="Кішка Персик">
+          <div class="cat-card__content">
+            <div class="cat-card__top">
+              <h3 class="cat-card__name">Персик</h3>
+              <span class="cat-card__age">6 місяців</span>
+            </div>
+            <p class="cat-card__desc">Маленьке кошеня з великим серцем. Дуже допитливе та енергійне. Стане справжнім другом для дітей.</p>
+            <a class="cat-card__button" href="#contact">Взяти додому</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__container">
+      <h2 class="contact__title">Зв'яжіться з нами</h2>
+      <p class="contact__desc">Маєш питання або хочеш усиновити кота? Напиши нам!</p>
+      <div class="contact__content">
+        <div class="contact__info">
+          <div class="contact__item">
+            <span class="contact__item-label">📍 Адреса</span>
+            <span class="contact__item-text">вул. Смілянська, 11, Черкаси</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__item-label">📞 Телефон</span>
+            <span class="contact__item-text">+38 (097) 14-13-910</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__item-label">✉️ Email</span>
+            <span class="contact__item-text">cathouse@gmail.com</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__item-label">🕐 Години роботи</span>
+            <span class="contact__item-text">Пн–Сб: 10:00 – 18:00</span>
+          </div>
+        </div>
+        <form class="contact__form">
+          <input class="contact__input" type="text" placeholder="Твоє ім'я">
+          <input class="contact__input" type="email" placeholder="Email">
+          <textarea class="contact__textarea" placeholder="Твоє повідомлення"></textarea>
+          <button class="contact__submit" type="submit">Надіслати</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
